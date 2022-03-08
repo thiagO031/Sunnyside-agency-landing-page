@@ -1,6 +1,174 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
-body{
-    background-color: aqua;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    
 }
+
+main{
+    display: grid;
+    grid-template-areas: "s1 s1 s1 s1"
+                         "s2 s2 s3 s3"
+                         "s4 s4 s5 s5"
+                         "s6 s6 s7 s7"
+                         "s8 s8 s8 s8"
+                         "s9 s10 s11 s12"
+                         "s13 s13 s13 s13";
+    /* width: 516px; */
+}
+
+.sec_1{
+    grid-area: s1;
+
+    background-color: #3EBEFF;
+    height: 325px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+}
+
+.nav-list, .nav-list a{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    /* padding: 5px; */
+}
+
+.sec_1 h2{
+    color: white;
+    font-family: 'Fraunces';
+    font-size: xx-large;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.sec_2{
+    grid-area: s2;
+
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+.sec_2 div{
+    padding: 20px
+}
+
+.sec_2 h1{
+    font-family: 'Fraunces';
+    font-weight: 900;
+    font-size: larger;
+    padding-bottom: 30px;
+}
+
+.sec_2 p{
+    font-family: 'Barlow';
+}
+
+.sec_2 h4{
+    font-family: 'Fraunces';
+    color: black;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+
+.sec_2 a{
+    text-decoration: none;
+}
+
+.sec_3{
+    grid-area: s3;
+}
+
+.img_egg{
+    height: auto;
+    width: 100%;
+}
+
+.sec_4{
+    grid-area: s4;
+}
+
+.img_pinkglass{
+    height: auto;
+    width: 100%;
+}
+.sec_5{
+    grid-area: s5;
+}
+.sec_6{
+    grid-area: s6;
+}
+
+.img_cereja{
+    height: auto;
+    width: 100%;
+}
+
+.sec_7{
+    grid-area: s7;
+}
+
+.img_orange{
+    height: auto;
+    width: 100%;
+}
+.sec_8{
+    grid-area: s8;
+}
+.sec_9{
+    grid-area: s9;
+}
+
+.img_milk{
+    height: auto;
+    width: 100%;
+}
+.sec_10{
+    grid-area: s10;
+}
+
+.img_orang{
+    height: auto;
+    width: 100%;
+
+}
+
+.sec_11{
+    grid-area: s11;
+}
+
+.img_cone{
+    height: auto;
+    width: 100%;
+}
+
+.sec_12{
+    grid-area: s12;
+}
+
+.img_sugar{
+    height: auto;
+    width: 100%;
+}
+
+footer{
+    grid-area: s13;
+    background-color: #91D3C5;
+}
+
+/* .orange_img{
+    height: auto;
+    width: 100%;
+} */
+
