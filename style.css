@@ -8,239 +8,105 @@
  
 }
 
-/*---------- MAIN ----------*/
 
-main{
-    display: grid;
-    grid-template-areas: "s1 s1 s1 s1"
-                         "s2 s2 s3 s3"
-                         "s4 s4 s5 s5"
-                         "s6 s6 s7 s7"
-                         "s8 s8 s8 s8"
-                         "s9 s10 s11 s12"
-                         "s13 s13 s13 s13";
-    width: 600px;
+/* container */
+
+.container{
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+/* section 1 */
+.sec-1{
+    height: 100vh;
+    position: relative;
+
 }
 
-/*---------- SECTIONS ----------*/
-
-/* SECTION 1 */
-
-.sec_1{
-    grid-area: s1;
-
-    background-color: #3EBEFF;
-    height: 325px;
+.img-sec1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
-    padding: 25px 20px;
+    align-items: center;
+    position: relative;
+
+    padding: 0px 15px;
+
+    font-family: 'Barlow', sans-serif;
+
 }
 
-.nav-list, .nav-list a{
+nav ul, a{
     display: flex;
+
     list-style: none;
     text-decoration: none;
+    padding: 0px 10px;
+
     color: white;
-    /* padding: 5px; */
+    border: 1px solid purple;
+    font-size: small;
 }
 
-.sec_1 h2{
+.logo{
+    height: 75%;
+    width: 75%;
+}
+
+.contact{
     color: white;
-    font-family: 'Fraunces';
-    font-size: xx-large;
     text-transform: uppercase;
-    letter-spacing: 5px;
-    text-align: center;
 }
 
-/* SECTION 2 */
-
-.sec_2{
-    grid-area: s2;
-
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
-    
-}
-
-.sec_2 div{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    /* align-items: center; */
-    justify-content: center;
-    
-}
-
-.sec_2 h1{
-    font-family: 'Fraunces';
-    font-weight: 900;
-    font-size: larger;
-    padding-bottom: 30px;
-}
-
-.sec_2 p{
-    font-family: 'Barlow';
-}
-
-.sec_2 h4{
-    font-family: 'Fraunces';
-    color: black;
-    text-transform: uppercase;
-    padding-top: 30px;
-}
-
-.sec_2 a{
-    text-decoration: none;
-}
-
-/* SECTION 3 */
-
-.sec_3{
-    grid-area: s3;
-}
-
-.img_egg{
-    height: auto;
-    width: 100%;
-}
-
-/* SECTION 4 */
-
-.sec_4{
-    grid-area: s4;
-}
-
-.img_pinkglass{
-    height: auto;
-    width: 100%;
-}
-
-/* SECTION 5 */
-
-.sec_5{
-    grid-area: s5;
-}
-
-.sec_5 h1{
-    font-family: 'Fraunces';
-    font-weight: 900;
-    font-size: larger;
-    padding-bottom: 30px;
-}
-
-.sec_5 p{
-    font-family: 'Barlow';
-}
-
-.sec_5 h4{
-    font-family: 'Fraunces';
-    color: black;
-    text-transform: uppercase;
-    padding-top: 30px;
-}
-
-/* SECTION 6 */
-
-.sec_6{
-    grid-area: s6;
-}
-
-.sec_6-1{
-    /* width: 80%; */
-
-}
-
-.sec_6 img{
-    height: 232px;
-    width: 278px;
-    position: absolute;
-}
-
-.sec_6-2{
-    position: relative;
-}
-
-.sec_6-2 h5{
-    
-}
-
-/* SECTION 7 */
-
-.sec_7{
-    grid-area: s7;
-}
-
-.img_orange{
-    height: auto;
-    width: 100%;
-}
-
-/* SECTION 8 */
-
-.sec_8{
-    grid-area: s8;
-}
-
-/* SECTION 9 */
-
-.sec_9{
-    grid-area: s9;
-}
-
-.img_milk{
-    height: auto;
-    width: 100%;
-}
-
-/* SECTION 10 */
-
-.sec_10{
-    grid-area: s10;
-}
-
-.img_orang{
-    height: auto;
-    width: 100%;
-
-}
-
-/* SECTION 11 */
-
-.sec_11{
-    grid-area: s11;
-}
-
-.img_cone{
-    height: auto;
-    width: 100%;
-}
-
-/* SECTION 12 */
-
-.sec_12{
-    grid-area: s12;
-}
-
-.img_sugar{
-    height: auto;
-    width: 100%;
-}
-
-/* ---------- FOOTER ---------- */
-
-footer{
-    grid-area: s13;
-    background-color: #91D3C5;
-}
-
-/* .orange_img{
-    height: auto;
-    width: 100%;
+/* .contact-div{
+    background-color: white;
+    border-radius: 10px;
+    padding: 1.5px 0px;
 } */
+
+header h1{
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+
+    font-size: 1.5em;
+    font-family: 'Fraunces', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/* como positiona a seta????????? */
+.img-arrow{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    position: relative;
+    height: 3%;
+    width: 3%;
+}
+
+
+
+
+
+
+
+
+
+/* conf gerais */
+.sec-1, .sec-2, .sec-3, .sec-4,
+.sec-5, .sec-6, .sec-7, .sec-8{
+    border: 1px solid red;
+}
+
+div{
+    border: 1px solid green;
+}
 
