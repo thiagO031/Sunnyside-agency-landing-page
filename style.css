@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
 
+/* arrumar o width dos containers */
+
 *{
     padding: 0;
     margin: 0;
@@ -12,7 +14,7 @@
 /* container */
 
 .container{
-    max-width: 950px;
+    max-width: 830px;
     width: 100%;
     margin: 0 auto;
     border: 2px solid black;
@@ -49,12 +51,12 @@ nav ul, a{
     text-decoration: none;
     padding: 0px 10px;
 
-    color: white;
-    border: 1px solid purple;
+    /* color: white; */
+    /* border: 1px solid purple; */
     font-size: small;
 }
 
-.logo{
+.logo-header{
     height: 75%;
     width: 75%;
 }
@@ -92,135 +94,254 @@ header h1{
     width: 3%;
 }
 
+/* section 2-3 */
 .sec-2-3{
     display: flex;
     flex-direction: row;
     
-    /* max-width: 950px;
-    width: 100%; */
+    max-width: 850px;
+    width: 100%;
     height: 400px;
 }
 
+/* SECTION 2 */
 .sec-2{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: flex-start; 
 
+    /* height: 100%; */
+    /* padding: 80px; */
     width: 475px;
-    height: 100%;
 
-    /* border: 1px solid pink;  */
+    border: 1px solid red; 
+}
+
+.titulo-sec2{
+    font-size: x-large;
+    padding-bottom: 30px;
 }
 
 .conteudo-sec2{
-    padding: 30px;
-    /* border: 1px solid purple; */
+    font-size: smaller;
 }
 
-
-.conteudo-sec2 h2, p{
-    /* font-size: x-large; */
-    padding-bottom: 20px;
-}
-
-.conteudo-sec2 h2{
-    font-size: xx-large;
-}
-
-.conteudo-sec2 button{
-    background-color: white;
-    text-transform: uppercase;
-    font-size: 12px;
+.btn-sec2{
+    cursor: pointer;
     border: none;
-
+    padding-top: 30px;
+    background-color: white;
 }
+/* SECTION 3 3 */
 
 .sec-3{
     position: relative;
     width: 475px;
-    height: 400px;
-
-    
+    /* height: 400px; */   
 }
 
 .img-sec3{
-    
+    position: absolute;
+    height: 100%;
+    width: 100%;   
 }
 
-/* section 4-5 */
+
+/* SECTION 4-5 */
 .sec-4-5{
     display: flex;
     flex-direction: row;
+    
+    max-width: 850px;
+    width: 100%;
     height: 400px;
 }
 
+/* SECTION 4 */
 .sec-4{
     width: 475px;
-    height: 400px;
+    position: relative;
+    border: 1px solid black;
 }
 
+.img-sec4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 
+/* SECTION 5 */
 .sec-5{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 30px;
+    align-items: flex-start;
+    /* padding: 80px; */
 
     width: 475px;
-    height: 400px;
+    /* height: 400px; */
 
-    /* border: 1px solid brown; */
+    border: 1px solid black;
 }
 
-.conteudo-sec5 h2, p{
-    padding-bottom: 20px;
+.titulo-sec5{
+    font-size: x-large;
+    padding-bottom: 30px;
 }
 
-.conteudo-sec5 h2{
-    font-size: xx-large;
+.conteudo-sec5{
+    font-size: smaller;
+    padding-bottom: 30px;
 }
 
-.conteudo-sec5 button{
+.btn-sec5{
     border: none;
     background-color: white;
-    font-size: 12px;
-    text-transform: uppercase;
 }
 
-/* sec 8 */
-.sec-8-profiles{
-    height: 600px;
-    width: 100%
-}
 
-.sec-8{
+/* SECTION 6-7 */
+.sec-6-7{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* height: 500px;
-    width: 100%; */
+    
+    max-width: 850px;
+    width: 100%;
+    height: 300px;
 }
 
-
-/* .profile-1, .profie-2, .profile-3{
+/* SECTION 6 */
+.sec-6, .sec-7{
     display: flex;
-    flex-direction: column;
-} */
+    align-items: flex-end;
+    justify-content: center;
 
-
-
-
-
-
-/* conf gerais */
-.sec-1, .sec-2, .sec-3, .sec-4,
-.sec-5, .sec-6, .sec-7, .sec-8{
+    width: 475px;
+    position: relative;
     border: 1px solid red;
 }
 
-div{
-    border: 1px solid green;
+.conteudo-sec6, .conteudo-sec7{
+    text-align: center;
+    position: relative;
+    width: 250px;
+    border: 2px solid gold;
 }
 
+.img-sec6, .img-sec7{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.titulo-sec6, .texto-sec7{
+    font-size: large;
+}
+
+.texto-sec6{
+    font-size: small;
+    padding-bottom: 25px;
+}
+
+/* SECTION 7 */
+.texto-sec7{
+    font-size: small;
+    padding-bottom: 38px;
+}
+
+/* Section 8 */
+.sec-8{
+    padding: 60px 0px;
+}
+
+.titulo-sec8{
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-size: small;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.sec8-profiles{
+    display: flex;
+    height: 220px;
+    /* border: 1px solid red; */
+}
+
+/* SECTION 8 PROFILES */
+.profile-1, .profile-2, .profile-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 13px;
+    /* border: 1px solid gold; */
+}
+
+.img-profile{
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+}
+
+.text-profile, .text-profile, .name-profile{
+    font-size: smaller;
+}
+
+.name-profile{
+    font-weight: bold;
+}
+
+
+/* SECTION 9 */
+.sec-9{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    max-width: 850px;
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid green; */
+}
+
+.container-1,.container-2, .container-3, .container-4 {
+    height: 100%;
+    width: 236px;
+    position: relative;
+    /* border: 2px solid red; */
+}
+
+.img-1, .img-2, .img-3, .img-4 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    height: 180px;
+
+    background-color: rgb(104, 201, 172);
+    /* border: 1px solid white; */
+}
+
+.logo-footer{
+    width: 100px;
+}
+
+.option ul, a{
+    display: flex;
+    list-style: none;
+    color: rgb(0, 75, 54);
+}
+
+.medias img{
+    padding: 0px 10px;
+}
