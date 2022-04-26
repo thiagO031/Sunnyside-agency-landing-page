@@ -1,0 +1,189 @@
+/* responsividade */
+@media(max-width: 450px){
+    .sec-1{
+        height: 350px;
+        position: relative;
+    
+    }
+
+    .titulo-header{
+        text-align: center;
+        position: relative;
+        padding-top: 40px;
+    
+        font-size: 1.4em;
+        font-family: 'Fraunces', sans-serif;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+
+    /* section 2-3 */
+    .sec-2-3{
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+        height: 700px;
+    }
+
+
+    /* section 2 */
+    .sec-2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start; 
+    
+        background-color: white;
+    
+        height: 100%;
+        /* padding: 80px; */
+        width: 100%;
+    
+        /* border: 1px solid red;  */
+    }
+
+
+    /* section 3 */
+    .sec-3{
+        position: relative;
+        width: 100%;
+        height: 100%;   
+    }
+
+
+    /* section 4-5 */
+    .sec-4-5{
+        display: flex;
+        flex-direction: column-reverse;
+        
+        width: 100%;
+        height: 700px;
+    }
+
+
+    /* section 4 */
+    .sec-4{
+        width: 100%;
+        height: 100%;
+        position: relative;
+        /* border: 1px solid black; */
+    }
+
+
+    /* section 5 */
+    .sec-5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        /* padding: 80px; */
+        background-color: white;
+    
+        width: 100%;
+        height: 100%;
+    
+        /* border: 1px solid black; */
+    }
+
+
+    /* section 6-7 */
+    .sec-6-7{
+        display: flex;
+        flex-direction: column;
+        
+        width: 100%;
+        height: 700px;
+    }
+
+    .sec-6, .sec-7{
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+    
+        width: 100%;
+        height: 100%;
+        position: relative;
+        /* border: 1px solid red; */
+    }
+
+    /* section 8 */
+
+    .sec-8{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: space-between; */
+        /* padding: 60px 50px; */
+        background-color: white;
+        border: 2px solid;
+        height: 550px;
+    
+    }
+    
+    .titulo-sec8{
+        /* padding-bottom: 20px; */
+        text-transform: uppercase;
+        font-size: small;
+        letter-spacing: 3px;
+        text-align: center;
+        font-family: 'Fraunces';
+        color: hsl(232, 10%, 55%);
+    }    
+
+    .sec8-profiles{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: 400px;
+        /* width: 600px; */
+        /* padding: 20px 20px; */
+        border: 1px solid red;
+    }
+
+    .profile-1, .profile-2, .profile-3{
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        text-align: center;
+    
+        width: 210px;
+        height: 300px;
+        /* padding: 18px; */
+
+        font-family: 'Barlow';
+        font-size: 14px;
+        border: 1px solid gold;
+    }
+
+    .sec-9{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    
+        /* max-width: 750px; */
+        width: 100%;
+        height: 200px;
+        /* border: 2px solid green; */
+    }
+    
+
+    .container-1, .container-2, .container-3, .container-4{
+        height: 100%;
+        width: 236px;
+        position: relative;
+        /* border: 2px solid red; */
+    }
+    
+
+    .img-1, .img-2, .img-3, .img-4 {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+    }
+    
+    
+}
