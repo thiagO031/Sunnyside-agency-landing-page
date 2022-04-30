@@ -6,7 +6,7 @@
     
     }
 
-    /* .titulo-header{
+    .titulo-header{
         text-align: center;
         position: relative;
         padding-top: 40px;
@@ -16,18 +16,6 @@
         color: white;
         text-transform: uppercase;
         letter-spacing: 4px;
-    } */
-
-    .titulo-header{
-        text-align: '';
-        position: '';
-        padding-top: '';
-    
-        font-size: '';
-        font-family: '';
-        color: '';
-        text-transform: '';
-        letter-spacing: '';
     }
 
     /* section 2-3 */
