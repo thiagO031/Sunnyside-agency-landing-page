@@ -361,19 +361,24 @@ nav{
     /* border: 2px solid green; */
 }
 
-.container-1,.container-2, .container-3, .container-4 {
+.container-1, .container-2, .container-3, .container-4 {
     height: 100%;
-    width: 236px;
+    width: 200px;
     position: relative;
     /* border: 2px solid red; */
 }
 
 .img-1, .img-2, .img-3, .img-4 {
-    position: absolute;
+    /* position: absolute; */
     height: 100%;
     width: 100%;
 }
 
+.container-mobile{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+}
 
 /* FOOTER */
 footer{
@@ -409,11 +414,5 @@ footer{
     padding: 0px 10px;
     width: 18%;
     cursor: pointer;
-
-    color: hsl(212, 27%, 19%);
-    color: hsl(213, 9%, 39%);
-    color: hsl(232, 10%, 55%);
-    color: hsl(210, 4%, 67%);
-    color: hsl(0, 0%, 100%);
 }
 
